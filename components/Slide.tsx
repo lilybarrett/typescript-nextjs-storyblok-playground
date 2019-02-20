@@ -10,10 +10,12 @@ type Props = {
     content: SbEditableContent,
 };
 
-const Slide: React.FC<Props> = (props) => (
-    <SbEditable content={props.content}>
+const Slide: React.FC<Props> = ({ content }) => (
+    <SbEditable content={content}>
         <div>
-            <SlideImage src={props.content.image} />
+            <SlideImage src={content.image} />
+            <p>{content.name}</p>
+            <p>{content.date}</p>
         </div>
     </SbEditable>
 );
