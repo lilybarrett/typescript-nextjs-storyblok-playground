@@ -13,8 +13,8 @@ export const Header = styled("h1")({
 });
 
 type State = {
-    pageContent: SbEditableContent | null;
-}
+    pageContent: SbEditableContent;
+};
 
 class HomePage extends React.Component<{}, State> {
     public static async getInitialProps ({ query }: NextContext) {
