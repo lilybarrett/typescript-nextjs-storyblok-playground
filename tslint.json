@@ -1,0 +1,9 @@
+{
+    "extends": "tslint:recommended",
+    "rules": {
+        "ordered-imports": false,
+        "space-before-function-paren": true,
+        "object-literal-sort-keys": false,
+        "interface-over-type-literal": false
+    }
+}
