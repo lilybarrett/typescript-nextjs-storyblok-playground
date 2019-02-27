@@ -7,7 +7,7 @@ class StoryblokService {
     public query: any;
     constructor () {
         this.devMode = false;
-        this.token = "k0reYOcwE7PuthhRY58TKAtt";
+        this.token = "p5OeJh6dOi4sdXngCfXnzQtt";
         this.client = new StoryblokClient({
             accessToken: this.token,
             cache: {
